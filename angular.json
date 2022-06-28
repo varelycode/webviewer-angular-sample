@@ -12,6 +12,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
+          "scripts": ["src/lib/core/webviewer-core.min.js"],
           "options": {
             "aot": true,
             "outputPath": "dist/angular",
